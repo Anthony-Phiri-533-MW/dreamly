@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 import DreamCard from '../components/DreamCard'
 import DreamsNavabar from '../components/DreamsNavabar'
 
-const page = () => {
+const Page = () => {
   const [fetchError, setFetchError] = useState(null);
   const [dreams, setDreams] = useState(null);
 
@@ -50,4 +50,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

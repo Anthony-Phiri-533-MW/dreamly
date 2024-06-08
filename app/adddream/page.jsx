@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 import supabase from "../config/supabaseClient"
 import {useRouter} from 'next/navigation'
 
-const page = () => {
+const Page = () => {
 
     const navigate = useRouter()
 
@@ -62,4 +62,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
